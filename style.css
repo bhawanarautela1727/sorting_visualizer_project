@@ -20,13 +20,16 @@
 .bars_container{
     display: flex;
     flex-direction: row;
+    align-items: flex-end;
+    gap:5px;
 }
 
 .bar{
-    width: 10px;
-    background-color: aqua;
-    /* margin: 0 2px; */
+     width: 20px;
+    background-color: green;
+     margin-right : 5 px; 
     border-radius: 2px;
+    display: inline-block;
 }
 
 body{
